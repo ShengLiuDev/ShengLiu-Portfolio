@@ -4,6 +4,7 @@ import { FileText, ExternalLink, Download } from "lucide-react";
 
 const ResumePreview = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const resumePath = `${import.meta.env.BASE_URL}Johnny-Liu-Resume.pdf`;
 
   return (
     <div className="flex flex-col items-center">
@@ -40,7 +41,7 @@ const ResumePreview = () => {
             <div className="flex items-center justify-between p-4 border-b border-border bg-card">
               <h3 className="font-display font-semibold text-lg">Resume</h3>
               <a
-                href="/Johnny-Liu-Resume.pdf"
+                href={resumePath}
                 download
                 className="flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg font-medium text-sm hover:bg-primary/90 transition-colors"
               >
@@ -52,7 +53,7 @@ const ResumePreview = () => {
             {/* PDF Viewer */}
             <div className="flex-1 bg-muted">
               <iframe
-                src="/Johnny-Liu-Resume.pdf"
+                src={resumePath}
                 className="w-full h-full"
                 title="Resume PDF"
               />
