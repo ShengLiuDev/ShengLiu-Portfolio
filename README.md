@@ -21,7 +21,7 @@ Personal portfolio website showcasing my work as a Software Engineer and NLP Res
 
 ```sh
 # Clone the repository
-git clone <YOUR_GIT_URL>
+git clone https://github.com/ShengLiuDev/ShengLiu-Portfolio.git
 
 # Navigate to the project directory
 cd johnny-liu-portfolio
