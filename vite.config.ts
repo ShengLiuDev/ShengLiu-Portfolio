@@ -4,6 +4,8 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // change back to "/" when deploying using johnnyliu.dev
+  base: "/ShengLiu-Portfolio/",
   server: {
     host: "::",
     port: 8080,
