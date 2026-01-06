@@ -15,7 +15,8 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      {/* change back to "/" when deploying using johnnyliu.dev */}
+      <BrowserRouter basename="/ShengLiu-Portfolio/">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/projects" element={<Projects />} />
