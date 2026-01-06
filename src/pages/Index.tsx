@@ -7,12 +7,21 @@ import { ArrowDown, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Index = () => {
+  const bgImagePath = `${import.meta.env.BASE_URL}malachowsky_3.jpg`;
+
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
 
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
+        {/* Background image */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-9"
+          style={{ backgroundImage: `url(${bgImagePath})` }}
+        />
+        {/* Dark overlay for better text contrast */}
+        <div className="absolute inset-0 bg-background/60" />
         {/* Background gradient */}
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5" />
         <div className="absolute top-1/4 -left-32 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-pulse-slow" />
@@ -29,14 +38,14 @@ const Index = () => {
               className="font-display font-bold text-5xl md:text-7xl lg:text-8xl text-foreground mb-6 animate-fade-in"
               style={{ animationDelay: "100ms" }}
             >
-              Johnny Liu<span className="text-primary">.</span>
+              Johnny Liu<span className="text-primary inline-block animate-bounce-in">.</span>
             </h1>
 
             <p
               className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-in"
               style={{ animationDelay: "200ms" }}
             >
-              Master of Science in Computer Science Candidate at{" "}
+              M.S in Computer Science Candidate at{" "}
               <span className="text-foreground font-semibold">Georgia Tech</span>
             </p>
 
@@ -45,7 +54,8 @@ const Index = () => {
               style={{ animationDelay: "300ms" }}
             >
               Full-stack engineer and NLP researcher with experience building data pipelines at{" "}
-              <span className="text-primary font-medium">Amazon</span> and enterprise systems at{" "}
+              <span className="text-primary font-medium">Amazon</span>, the 
+              <span className="text-primary font-medium"> University of Florida</span>, and enterprise systems at{" "}
               <span className="text-primary font-medium">HD Supply</span>. Passionate about
               transforming complex data into actionable insights.
             </p>
@@ -84,8 +94,7 @@ const Index = () => {
               Career Timeline
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              From University of Florida to Georgia Tech—a journey through academia, research, and
-              industry.
+              From University of Florida to Georgia Tech
             </p>
           </div>
 

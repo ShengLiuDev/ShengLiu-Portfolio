@@ -5,7 +5,7 @@ import { BookOpen, TrendingUp, Users } from "lucide-react";
 
 const impactMetrics = [
   {
-    value: "$65K",
+    value: "~$65K",
     label: "Annual Savings",
     description: "Cost prevention through SKU validation system at HD Supply",
     accentColor: "primary" as const,
@@ -17,9 +17,9 @@ const impactMetrics = [
     accentColor: "accent" as const,
   },
   {
-    value: "320%",
+    value: "~320%",
     label: "Efficiency Boost",
-    description: "NLP preprocessing time reduction via custom Python lemmatizer",
+    description: "NLP preprocessing and data scraping time reduction via custom Python lemmatizer",
     accentColor: "primary" as const,
   },
   {
@@ -72,13 +72,13 @@ const Research = () => {
 
               <div className="space-y-6">
                 <p className="text-muted-foreground leading-relaxed">
-                  Led groundbreaking research applying modern NLP techniques to ancient Greek and
+                  Led research applying modern NLP techniques to ancient Greek and
                   Latin texts, bridging the gap between classical scholarship and machine learning.
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="card-glass rounded-xl p-6">
-                    <div className="text-3xl font-display font-bold text-gradient mb-2">93%</div>
+                    <div className="text-3xl font-display font-bold text-gradient mb-2">~93%</div>
                     <div className="font-semibold text-foreground mb-1">Accuracy Rate</div>
                     <p className="text-sm text-muted-foreground">
                       Achieved on validation sets through end-to-end training pipelines with
@@ -88,7 +88,7 @@ const Research = () => {
 
                   <div className="card-glass rounded-xl p-6">
                     <div className="text-3xl font-display font-bold text-gradient-accent mb-2">
-                      18%
+                      ~18%
                     </div>
                     <div className="font-semibold text-foreground mb-1">F1-Score Boost</div>
                     <p className="text-sm text-muted-foreground">

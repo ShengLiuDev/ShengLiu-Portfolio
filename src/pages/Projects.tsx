@@ -45,7 +45,7 @@ const Projects = () => {
               Project<span className="text-accent"> Deep-Dive</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              From "what I've done" to "how I built it"—exploring the technical decisions,
+              From "what I've done" to "how I built it" and exploring the technical decisions,
               architecture, and lessons learned from my key projects.
             </p>
           </div>

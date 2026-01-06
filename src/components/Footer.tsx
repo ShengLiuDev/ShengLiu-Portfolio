@@ -23,7 +23,7 @@ const Footer = () => {
               <Mail className="w-5 h-5" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/johnnyliuu/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -32,7 +32,7 @@ const Footer = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/ShengLiuDev/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -45,7 +45,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Johnny Liu. All rights reserved.
+            © {new Date().getFullYear()} Sheng Liu. All rights reserved.
           </p>
         </div>
       </div>

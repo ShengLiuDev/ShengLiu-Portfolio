@@ -12,6 +12,7 @@ const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
+  const resumePath = `${import.meta.env.BASE_URL}Johnny-Liu-Resume.pdf`;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,7 +34,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link
             to="/"
-            className="font-display font-bold text-xl md:text-2xl text-foreground hover:text-primary transition-colors"
+            className="font-display font-bold text-2xl md:text-3xl text-foreground hover:text-primary transition-colors"
           >
             JL<span className="text-primary">.</span>
           </Link>
@@ -44,7 +45,7 @@ const Navigation = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`font-medium text-sm tracking-wide transition-colors hover:text-primary ${
+                className={`font-medium text-base tracking-wide transition-colors hover:text-primary ${
                   location.pathname === item.path
                     ? "text-primary"
                     : "text-muted-foreground"
@@ -54,10 +55,10 @@ const Navigation = () => {
               </Link>
             ))}
             <a
-              href="/Johnny-Liu-Resume.pdf"
+              href={resumePath}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 bg-primary text-primary-foreground rounded-lg font-medium text-sm hover:bg-primary/90 transition-colors"
+              className="px-4 py-2 bg-primary text-primary-foreground rounded-lg font-medium text-base hover:bg-primary/90 transition-colors"
             >
               Resume
             </a>
@@ -91,7 +92,7 @@ const Navigation = () => {
                 </Link>
               ))}
               <a
-                href="/Johnny-Liu-Resume.pdf"
+                href={resumePath}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-3 bg-primary text-primary-foreground rounded-lg font-medium text-center"
