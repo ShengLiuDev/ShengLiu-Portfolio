@@ -12,6 +12,14 @@ interface TimelineItem {
 
 const timelineData: TimelineItem[] = [
   {
+    date: "Jan 2026 – Present",
+    title: "Founding Engineer",
+    organization: "LL Optics",
+    location: "Hybrid",
+    description: "Architecting an AI-driven computer vision system for rifle-scope integration to detect and track objects behind environmental occlusions",
+    type: "work",
+  },
+  {
     date: "Aug 2025 – Aug 2027",
     title: "M.S. in Computer Science",
     organization: "Georgia Institute of Technology",
