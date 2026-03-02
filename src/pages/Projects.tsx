@@ -7,15 +7,16 @@ const projectsData = [
   {
     title: "Molidata",
     description:
-      "An intelligent PDF analysis platform designed for restaurants and businesses to automatically extract and summarize key financial metrics from POS system statements and other business documents. Features multi-language support and AI-powered data extraction.",
-    techStack: ["React", "Supabase", "Claude API", "PDF Processing"],
+      "A PDF analysis platform for restaurants and businesses to extract and summarize key financial metrics from POS system statements. Leverages Claude Haiku 4.5 for document processing with multi-language support across English, Chinese, and Spanish interfaces.",
+    techStack: ["React", "Supabase", "Claude Haiku 4.5", "Supabase Edge Functions", "SonarCloud"],
     features: [
-      "Automatically reads and processes POS system monthly statements and business documents",
-      "AI-powered extraction of key metrics: total revenue, tips, dine-in vs takeout revenue, and more",
-      "Multi-language support with English, Chinese, and Spanish interfaces for diverse business owners",
-      "Secure document handling and data storage using Supabase backend",
+      "Utilized Claude Haiku 4.5 to process POS statements and extract key metrics including total revenue, tips, and dine-in versus takeout revenue",
+      "Implemented interactive chatbot that answers business specific questions based on uploaded PDF content",
+      "Built with Supabase for authentication, storage, and edge functions—-reducing infrastructure costs while maintaining scalability",
+      "Integrated SonarCloud for continuous code quality monitoring and security vulnerability detection",
+      "Designed multi-language UI supporting English, Chinese, and Spanish for diverse restaurant owners",
     ],
-    highlights: ["AI/ML", "Full-Stack", "Multi-Language", "Document Processing"],
+    highlights: ["Full-Stack", "Document Processing", "Multi-Language", "Cost Optimization"],
     liveUrl: "https://molidata.org",
   },
   {
