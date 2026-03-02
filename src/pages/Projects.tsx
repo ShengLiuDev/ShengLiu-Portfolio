@@ -1,8 +1,23 @@
 import Navigation from "@/components/Navigation";
 import ProjectCard from "@/components/ProjectCard";
 import Footer from "@/components/Footer";
+import { Link } from "react-router-dom";
 
 const projectsData = [
+  {
+    title: "Molidata",
+    description:
+      "An intelligent PDF analysis platform designed for restaurants and businesses to automatically extract and summarize key financial metrics from POS system statements and other business documents. Features multi-language support and AI-powered data extraction.",
+    techStack: ["React", "Supabase", "Claude API", "PDF Processing"],
+    features: [
+      "Automatically reads and processes POS system monthly statements and business documents",
+      "AI-powered extraction of key metrics: total revenue, tips, dine-in vs takeout revenue, and more",
+      "Multi-language support with English, Chinese, and Spanish interfaces for diverse business owners",
+      "Secure document handling and data storage using Supabase backend",
+    ],
+    highlights: ["AI/ML", "Full-Stack", "Multi-Language", "Document Processing"],
+    liveUrl: "https://molidata.org",
+  },
   {
     title: "Sublettee",
     description:
@@ -79,12 +94,12 @@ const Projects = () => {
             <p className="text-muted-foreground text-lg mb-8">
               Check out my research work and the quantitative impact of my contributions.
             </p>
-            <a
-              href="/research"
+            <Link
+              to="/research"
               className="inline-flex px-8 py-4 bg-accent text-accent-foreground rounded-xl font-semibold text-lg hover:bg-accent/90 transition-colors"
             >
               View Research & Impact
-            </a>
+            </Link>
           </div>
         </div>
       </section>
