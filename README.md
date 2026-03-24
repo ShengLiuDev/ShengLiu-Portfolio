@@ -2,6 +2,8 @@
 
 Personal portfolio website showcasing my work as a Software Engineer and NLP Researcher.
 
+**Live site:** [johnnyliu.dev](https://johnnyliu.dev)
+
 ## Tech Stack
 
 - **Vite** - Fast build tool and dev server
@@ -24,7 +26,7 @@ Personal portfolio website showcasing my work as a Software Engineer and NLP Res
 git clone https://github.com/ShengLiuDev/ShengLiu-Portfolio.git
 
 # Navigate to the project directory
-cd johnny-liu-portfolio
+cd ShengLiu-Portfolio
 
 # Install dependencies
 npm install
@@ -39,11 +41,14 @@ npm run dev
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
+- `npm run deploy` - Build and deploy to GitHub Pages
 
 ## Deployment
 
-Build the project and deploy the `dist` folder to any static hosting service (Vercel, Netlify, GitHub Pages, etc.):
+This site is deployed to GitHub Pages via the `gh-pages` package. To deploy:
 
 ```sh
-npm run build
+npm run deploy
 ```
+
+This builds the project and pushes the `dist` folder to the `gh-pages` branch automatically.
