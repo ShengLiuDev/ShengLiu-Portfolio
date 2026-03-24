@@ -5,15 +5,15 @@ import { BookOpen, TrendingUp, Users } from "lucide-react";
 
 const impactMetrics = [
   {
-    value: "~$65K",
-    label: "Annual Savings",
-    description: "Cost prevention through SKU validation system at HD Supply",
+    value: "163K+",
+    label: "SKUs Audited",
+    description: "C#/SQL validation system identifying 30K inactive items, reducing cloud storage overhead at HD Supply",
     accentColor: "primary" as const,
   },
   {
-    value: "75%",
-    label: "Time Reduction",
-    description: "Developer onboarding time cut from ~8 weeks to ~2 weeks",
+    value: "3,600+",
+    label: "Merchants Served",
+    description: "React/TypeScript features shipped via Jenkins CI/CD staged releases (Test/Stage/Prod)",
     accentColor: "accent" as const,
   },
   {
@@ -100,7 +100,7 @@ const Research = () => {
                 <div className="flex flex-wrap gap-4 pt-4">
                   <div className="flex items-center gap-2 text-sm text-muted-foreground">
                     <Users className="w-4 h-4" />
-                    <span>Managing a team of 20 researchers</span>
+                    <span>Led agile sprints for a team of 20 researchers</span>
                   </div>
                   <div className="flex items-center gap-2 text-sm text-muted-foreground">
                     <BookOpen className="w-4 h-4" />
@@ -148,37 +148,6 @@ const Research = () => {
       <section className="py-16">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto space-y-8">
-            {/* Amazon */}
-            <div className="card-glass rounded-2xl p-6 md:p-8">
-              <div className="flex items-start justify-between gap-4 mb-4">
-                <div>
-                  <h3 className="font-display font-bold text-xl text-foreground">Amazon</h3>
-                  <p className="text-sm text-muted-foreground">
-                    NLP & Data Engineering Externship
-                  </p>
-                </div>
-                <span className="text-xs font-medium text-primary bg-primary/10 px-3 py-1 rounded-full">
-                  Sep 2025 - Dec 2025
-                </span>
-              </div>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-3 text-sm text-muted-foreground">
-                  <span className="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  Developed Python NLP pipeline using NLTK to preprocess and analyze 20+ GB of
-                  unstructured text data across 500+ employee feedback documents
-                </li>
-                <li className="flex items-start gap-3 text-sm text-muted-foreground">
-                  <span className="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  Engineered data transformation workflows producing analytical visualizations to
-                  surface operational risk signals
-                </li>
-                <li className="flex items-start gap-3 text-sm text-muted-foreground">
-                  <span className="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 flex-shrink-0" />
-                  Translated NLP results into data-backed insights presented to Amazon leadership
-                </li>
-              </ul>
-            </div>
-
             {/* HD Supply */}
             <div className="card-glass rounded-2xl p-6 md:p-8">
               <div className="flex items-start justify-between gap-4 mb-4">
@@ -193,17 +162,21 @@ const Research = () => {
               <ul className="space-y-3">
                 <li className="flex items-start gap-3 text-sm text-muted-foreground">
                   <span className="w-1.5 h-1.5 rounded-full bg-accent mt-1.5 flex-shrink-0" />
-                  Cut developer onboarding time by ~75% (~8 to ~2 weeks) by writing UI–API
-                  documentation and personally onboarding 2+ new engineers
+                  Built a C# / SQL validation system to audit 163K+ SKUs, identifying 30K inactive
+                  items to eliminate pricing discrepancies, reducing data cleanup for the merchandising
+                  team, and significantly reducing cloud storage overhead
                 </li>
                 <li className="flex items-start gap-3 text-sm text-muted-foreground">
                   <span className="w-1.5 h-1.5 rounded-full bg-accent mt-1.5 flex-shrink-0" />
-                  Built C# / SQL validation system to flag 30K inactive SKUs out of 163K, saving
-                  ~$65K annually
+                  Delivered React/TypeScript features to production for 3,600+ merchants, utilizing
+                  Jenkins CI/CD pipelines to execute unit tests and manage staged releases
+                  (Test/Stage/Prod)
                 </li>
                 <li className="flex items-start gap-3 text-sm text-muted-foreground">
                   <span className="w-1.5 h-1.5 rounded-full bg-accent mt-1.5 flex-shrink-0" />
-                  Delivered React components integrated with .NET Core APIs for 3,600+ merchants
+                  Authored comprehensive UI-API documentation that standardized the onboarding
+                  process for new engineers and reduced dependency on senior developer 1-on-1
+                  walkthroughs
                 </li>
               </ul>
             </div>

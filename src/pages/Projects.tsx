@@ -20,15 +20,25 @@ const projectsData = [
     liveUrl: "https://molidata.org",
   },
   {
+    title: "Amazon NLP Sentiment Analysis Project",
+    description:
+      "Developed a Python NLP pipeline at Amazon to preprocess and analyze 20+ GB of unstructured text data across 500+ employee feedback documents, translating results into executive insights to improve fulfillment center efficiency.",
+    techStack: ["Python", "NLTK", "Pandas", "Matplotlib", "Google Sheets", "Google Slides"],
+    features: [
+      "Developed a Python NLP pipeline using NLTK to preprocess and analyze 20+ GB of unstructured text data across 500+ employee feedback documents, including tokenization, stop-word filtering, and lemmatization",
+      "Engineered data transformation workflows in pandas and produced analytical visualizations with matplotlib to surface cohort-level trends and operational risk signals",
+      "Exported processed datasets and visualizations to create executive slide decks, translating NLP results into data-backed insights presented to Amazon leadership and supporting initiatives to improve fulfillment center efficiency",
+    ],
+    highlights: ["NLP", "Data Engineering", "Big Data", "Executive Insights"],
+  },
+  {
     title: "Sublettee",
     description:
       "A comprehensive sublease aggregator and mapping tool that helps users find available sublets from multiple sources. Features real-time data aggregation from Facebook Marketplace, Apartments.com, and other platforms with an intuitive map-based interface.",
     techStack: ["Python", "React", "Google Maps API", "AWS EC2", "AWS RDS", "AWS S3"],
     features: [
-      "Aggregates sublease listings from Facebook Marketplace, Apartments.com, and other sources through APIs and web scraping",
-      "Geocodes and maps available sublets with an interactive Google Maps interface",
-      "Stores listing data in AWS RDS and user-generated images in AWS S3",
-      "Full application hosted on AWS EC2 with scalable architecture",
+      "Aggregated sublease listings from Facebook Marketplace, Apartments.com, and other sources through APIs and web scraping, displaying available sublets within an interactive Google Maps interface",
+      "Stores listing data in AWS RDS and user-generated images in AWS S3; application hosted on AWS EC2",
     ],
     highlights: ["Full-Stack", "Cloud Deployment", "Web Scraping", "Geolocation"],
   },
@@ -39,9 +49,9 @@ const projectsData = [
     techStack: ["Python", "Flask", "React", "OpenCV", "Google Drive API", "BERT", "DeepSeek V3"],
     features: [
       "Designed Flask backend and Google Drive API workflows for secure video handling and storage",
-      "Processed 100+ hours of sample mock interviews for training and validation",
+      "Processed 100+ hours of sample mock interviews",
       "Deployed computer vision modules and audio analysis (Librosa, STT) to extract interview metrics: pause frequency, tone, and eye-contact",
-      "Integrated Hugging Face Transformers for speech-to-text transcription and sentiment analysis",
+      "Integrated Hugging Face Transformers for speech-to-text transcription and sentiment analysis of answers from users",
     ],
     highlights: ["AI/ML", "Computer Vision", "NLP", "Product Leadership"],
   },

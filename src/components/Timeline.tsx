@@ -40,7 +40,7 @@ const timelineData: TimelineItem[] = [
     title: "Software Engineering Intern",
     organization: "HD Supply",
     location: "Atlanta, GA",
-    description: "Built validation systems preventing $65K in annual losses. Delivered React/TypeScript components for 3,600+ merchants.",
+    description: "Built C#/SQL SKU audit system across 163K+ items. Delivered React/TypeScript features via Jenkins CI/CD pipelines for 3,600+ merchants.",
     type: "work",
   },
   {
@@ -48,7 +48,7 @@ const timelineData: TimelineItem[] = [
     title: "Lead Undergraduate Researcher",
     organization: "University of Florida",
     location: "Gainesville, FL",
-    description: "Fine-tuned BERT models on 150K+ ancient texts achieving 93% accuracy. Led team of 20 researchers.",
+    description: "Fine-tuned BERT models on 150K+ ancient texts achieving 93% accuracy. Co-authored two conference abstracts, led agile sprints for a team of 20 researchers.",
     type: "research",
   },
   {
