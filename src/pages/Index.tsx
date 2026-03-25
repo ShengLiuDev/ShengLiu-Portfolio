@@ -53,11 +53,11 @@ const Index = () => {
               className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed animate-fade-in"
               style={{ animationDelay: "300ms" }}
             >
-              Full-stack engineer and NLP researcher with experience building data pipelines at{" "}
-              <span className="text-primary font-medium">Amazon</span>, the 
+              Application Developer and NLP researcher with experience building data pipelines and AI tooling at{" "}
+              <span className="text-primary font-medium">Caresource</span>, the 
               <span className="text-primary font-medium"> University of Florida</span>, and enterprise systems at{" "}
               <span className="text-primary font-medium">HD Supply</span>. Passionate about
-              transforming complex data into actionable insights.
+              transforming complex data into actionable insights and building enterprise level AI tooling.
             </p>
 
             <div
