@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"C:/Users/Sheng/cursor-projects/ShengLiu-Portfolio\" remote -v)",
+      "Bash(git -C \"C:/Users/Sheng/cursor-projects/ShengLiu-Portfolio\" status)",
+      "Bash(git -C \"C:/Users/Sheng/cursor-projects/ShengLiu-Portfolio\" log --oneline -5)",
+      "Bash(git -C \"C:/Users/Sheng/cursor-projects/ShengLiu-Portfolio\" log --oneline origin/main -5)",
+      "Bash(git -C \"C:/Users/Sheng/cursor-projects/ShengLiu-Portfolio\" show e936bf0 --stat)",
+      "Bash(git -C \"C:/Users/Sheng/cursor-projects/ShengLiu-Portfolio\" show e936bf0 -- README.md)",
+      "Bash(git:*)"
+    ]
+  }
+}

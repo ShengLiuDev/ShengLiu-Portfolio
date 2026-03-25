@@ -5,6 +5,11 @@ import { Link } from "react-router-dom";
 
 const projectsData = [
   {
+    title: "Current Project:PepMart",
+    description: "A online marketplace to track peptide product prices across a wide range of 3rd party tested vendors.",
+    
+  },
+  {
     title: "Molidata",
     description:
       "A PDF analysis platform for restaurants and businesses to extract and summarize key financial metrics from POS system statements. Leverages Claude Haiku 4.5 for document processing with multi-language support across English, Chinese, and Spanish interfaces.",
