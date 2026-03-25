@@ -13,18 +13,34 @@ interface TimelineItem {
 const timelineData: TimelineItem[] = [
   {
     date: "Jan 2026 – Present",
-    title: "Founding Engineer",
-    organization: "LL Optics",
-    location: "Hybrid",
-    description: "Architecting an AI-driven computer vision system for rifle-scope integration to detect and track objects behind environmental occlusions",
+    title: "Graduate Researcher",
+    organization: "University of Florida",
+    location: "Gainesville, FL",
+    description: "Currently working on first author publication of effects on current AI models on data aggregation and data cleaning of ancient incomplete texts along with completion of libraries through inference and underlying sentiment",
+    type: "research",
+  },
+  {
+    date: "April 2026 – Present",
+    title: "Application Developer",
+    organization: "Caresource",
+    location: "Remote",
+    description: "Building internal tooling on Azure AI Foundry",
     type: "work",
   },
   {
-    date: "Aug 2025 – Aug 2027",
+    date: "Jan 2026 – Mar 2026",
+    title: "Founding Engineer",
+    organization: "LL Optics",
+    location: "Hybrid",
+    description: "Helped architect inital AI-assisted computer vision system for rifle-scope integration to detect and track objects behind environmental occlusions",
+    type: "work",
+  },
+  {
+    date: "Aug 2025 – Aug 2028",
     title: "M.S. in Computer Science",
     organization: "Georgia Institute of Technology",
     location: "Atlanta, GA",
-    description: "Pursuing advanced studies in Computer Science with focus on Machine Learning and NLP.",
+    description: "Pursuing advanced studies in Computer Science with focus on Machine Learning and NLP",
     type: "education",
   },
   {
@@ -32,7 +48,7 @@ const timelineData: TimelineItem[] = [
     title: "NLP & Data Engineering Extern",
     organization: "Amazon",
     location: "Remote",
-    description: "Developed Python NLP pipeline to analyze 20+ GB of unstructured text across 500+ employee feedback documents.",
+    description: "Developed Python NLP pipeline to analyze 20+ GB of unstructured text across 500+ employee feedback documents",
     type: "work",
   },
   {
@@ -40,7 +56,7 @@ const timelineData: TimelineItem[] = [
     title: "Software Engineering Intern",
     organization: "HD Supply",
     location: "Atlanta, GA",
-    description: "Built C#/SQL SKU audit system across 163K+ items. Delivered React/TypeScript features via Jenkins CI/CD pipelines for 3,600+ merchants.",
+    description: "Built C#/SQL SKU audit system across 163K+ items. Delivered React/TypeScript features via Jenkins CI/CD pipelines for 3,600+ merchants",
     type: "work",
   },
   {
@@ -48,7 +64,7 @@ const timelineData: TimelineItem[] = [
     title: "Lead Undergraduate Researcher",
     organization: "University of Florida",
     location: "Gainesville, FL",
-    description: "Fine-tuned BERT models on 150K+ ancient texts achieving 93% accuracy. Co-authored two conference abstracts, led agile sprints for a team of 20 researchers.",
+    description: "Fine-tuned BERT models on 150K+ ancient texts achieving 93% accuracy. Co-authored two conference abstracts, led agile sprints for a team of 20 researchers",
     type: "research",
   },
   {
@@ -56,7 +72,7 @@ const timelineData: TimelineItem[] = [
     title: "UF HireLens PM & ColorStack Leadership",
     organization: "ColorStack",
     location: "Gainesville, FL",
-    description: "Led development of AI-driven mock interview platform with computer vision and NLP analysis.",
+    description: "Led development of AI-driven mock interview platform with computer vision and NLP analysis",
     type: "leadership",
   },
   {
@@ -64,7 +80,7 @@ const timelineData: TimelineItem[] = [
     title: "B.S. in Computer Science",
     organization: "University of Florida",
     location: "Gainesville, FL",
-    description: "Graduated Honors Cum Laude with 3.5/4.0 GPA.",
+    description: "Graduated Honors Cum Laude",
     type: "education",
   },
 ];
