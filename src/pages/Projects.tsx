@@ -5,11 +5,8 @@ import { Link } from "react-router-dom";
 
 const projectsData = [
   {
-    title: "Current Project:PepMart",
+    title: "Current Project: PepMart",
     description: "A online marketplace to track peptide product prices across a wide range of 3rd party tested vendors.",
-    techStack: ["TBD"],
-    features: ["TBD"],
-    highlights: ["TBD"],
   },
   {
     title: "Molidata",

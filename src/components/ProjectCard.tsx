@@ -3,8 +3,8 @@ import { ExternalLink, Github } from "lucide-react";
 interface ProjectCardProps {
   title: string;
   description: string;
-  techStack: string[];
-  features: string[];
+  techStack?: string[];
+  features?: string[];
   highlights?: string[];
   githubUrl?: string;
   liveUrl?: string;
@@ -52,36 +52,40 @@ const ProjectCard = ({
       <p className="text-muted-foreground leading-relaxed mb-6">{description}</p>
 
       {/* Tech Stack */}
-      <div className="mb-6">
-        <h4 className="text-xs font-semibold uppercase tracking-wider text-primary mb-3">
-          Tech Stack
-        </h4>
-        <div className="flex flex-wrap gap-2">
-          {techStack.map((tech) => (
-            <span
-              key={tech}
-              className="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-medium"
-            >
-              {tech}
-            </span>
-          ))}
+      {techStack && techStack.length > 0 && (
+        <div className="mb-6">
+          <h4 className="text-xs font-semibold uppercase tracking-wider text-primary mb-3">
+            Tech Stack
+          </h4>
+          <div className="flex flex-wrap gap-2">
+            {techStack.map((tech) => (
+              <span
+                key={tech}
+                className="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-medium"
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
 
       {/* Key Features */}
-      <div className="mb-6">
-        <h4 className="text-xs font-semibold uppercase tracking-wider text-accent mb-3">
-          Key Features
-        </h4>
-        <ul className="space-y-2">
-          {features.map((feature, index) => (
-            <li key={index} className="flex items-start gap-2 text-sm text-muted-foreground">
-              <span className="w-1.5 h-1.5 rounded-full bg-accent mt-1.5 flex-shrink-0" />
-              {feature}
-            </li>
-          ))}
-        </ul>
-      </div>
+      {features && features.length > 0 && (
+        <div className="mb-6">
+          <h4 className="text-xs font-semibold uppercase tracking-wider text-accent mb-3">
+            Key Features
+          </h4>
+          <ul className="space-y-2">
+            {features.map((feature, index) => (
+              <li key={index} className="flex items-start gap-2 text-sm text-muted-foreground">
+                <span className="w-1.5 h-1.5 rounded-full bg-accent mt-1.5 flex-shrink-0" />
+                {feature}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       {/* Highlights */}
       {highlights && highlights.length > 0 && (
