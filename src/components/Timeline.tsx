@@ -16,7 +16,7 @@ const timelineData: TimelineItem[] = [
     title: "Graduate Researcher",
     organization: "University of Florida",
     location: "Gainesville, FL",
-    description: "Currently working on first author publication of effects on current AI models on data aggregation and data cleaning of ancient incomplete texts along with completion of libraries through inference and underlying sentiment",
+    description: "Currently working on first author publication alongside Dr. Bozia of effects current AI models have on data aggregation and data cleaning of ancient incomplete texts along with completion of libraries through inference and underlying sentiment",
     type: "research",
   },
   {
