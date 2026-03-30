@@ -7,6 +7,7 @@ const projectsData = [
   {
     title: "Current Project: PepMart",
     description: "A online marketplace to track peptide product prices across a wide range of 3rd party tested vendors.",
+    slug: "pepmart",
   },
   {
     title: "Molidata",
@@ -22,6 +23,7 @@ const projectsData = [
     ],
     highlights: ["Full-Stack", "Document Processing", "Multi-Language", "Cost Optimization"],
     liveUrl: "https://molidata.org",
+    slug: "molidata",
   },
   {
     title: "Amazon NLP Sentiment Analysis Project",
@@ -34,6 +36,7 @@ const projectsData = [
       "Exported processed datasets and visualizations to create executive slide decks, translating NLP results into data-backed insights presented to Amazon leadership and supporting initiatives to improve fulfillment center efficiency",
     ],
     highlights: ["NLP", "Data Engineering", "Big Data", "Executive Insights"],
+    slug: "amazon-nlp",
   },
   {
     title: "Sublettee",
@@ -45,6 +48,7 @@ const projectsData = [
       "Stores listing data in AWS RDS and user-generated images in AWS S3; application hosted on AWS EC2",
     ],
     highlights: ["Full-Stack", "Cloud Deployment", "Web Scraping", "Geolocation"],
+    slug: "sublettee",
   },
   {
     title: "UF HireLens",
@@ -58,6 +62,7 @@ const projectsData = [
       "Integrated Hugging Face Transformers for speech-to-text transcription and sentiment analysis of answers from users",
     ],
     highlights: ["AI/ML", "Computer Vision", "NLP", "Product Leadership"],
+    slug: "uf-hirelens",
   },
 ];
 

@@ -8,7 +8,8 @@
       "Bash(git -C \"C:/Users/Sheng/cursor-projects/ShengLiu-Portfolio\" show e936bf0 --stat)",
       "Bash(git -C \"C:/Users/Sheng/cursor-projects/ShengLiu-Portfolio\" show e936bf0 -- README.md)",
       "Bash(git:*)",
-      "Bash(cd:*)"
+      "Bash(cd:*)",
+      "Bash(npm run:*)"
     ]
   }
 }

@@ -1,4 +1,5 @@
 import { ExternalLink, Github } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface ProjectCardProps {
   title: string;
@@ -8,6 +9,7 @@ interface ProjectCardProps {
   highlights?: string[];
   githubUrl?: string;
   liveUrl?: string;
+  slug?: string;
 }
 
 const ProjectCard = ({
@@ -18,6 +20,7 @@ const ProjectCard = ({
   highlights,
   githubUrl,
   liveUrl,
+  slug,
 }: ProjectCardProps) => {
   return (
     <div className="group card-elevated rounded-2xl p-6 md:p-8 border border-border/50 hover:border-primary/30 transition-all duration-300 hover:shadow-xl">
@@ -103,6 +106,18 @@ const ProjectCard = ({
               </span>
             ))}
           </div>
+        </div>
+      )}
+
+      {/* Read More */}
+      {slug && (
+        <div className="pt-4 mt-2">
+          <Link
+            to={`/projects/${slug}`}
+            className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:text-accent/80 transition-colors"
+          >
+            Read more →
+          </Link>
         </div>
       )}
     </div>
